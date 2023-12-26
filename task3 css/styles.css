@@ -1,0 +1,60 @@
+h1:first-child {
+    font-weight: bold;
+  }
+  
+  li:last-child {
+    color: rgb(243, 233, 233);
+  }
+  
+  input[disabled] {
+    background-color: gray;
+  }
+  
+  li:nth-child(1) {
+    font-weight: bold;
+  }
+  
+  a[href^="https"] {
+    color: green;
+  }
+  
+  input[type="text"] {
+    border: 1px solid blue;
+  }
+  
+  li:first-child,
+  li:last-child {
+    font-size: 24px;
+  }
+  
+  li[class^="special"] {
+    font-size: 16px;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: lightblue;
+  }
+  
+  li:nth-child(1) {
+    text-decoration: underline;
+  }
+  
+  li:nth-child(even) {
+    font-weight: bold;
+  }
+  
+  input[type="text"]:not([disabled]) {
+    background-color: gray;
+  }
+  
+  li:first-child {
+    font-size: 24px;
+  }
+  
+  li:nth-child(2) {
+    text-decoration: line-through;
+  }
+  
+  li:first-letter {
+    font-size: 36px;
+  }
