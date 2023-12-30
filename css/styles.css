@@ -87,3 +87,23 @@ body {
     color: #ffffff;
     padding: 10px;
   }
+
+schedule {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .schedule tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .schedule th,
+  .schedule td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .schedule th {
+    background-color: #f0f0f0;
+  }
